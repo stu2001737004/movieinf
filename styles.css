@@ -1,0 +1,79 @@
+body {
+    margin: 10px;
+}
+
+.paginator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.movie-container-list{
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.movie-card{
+    display: flex;
+    margin: 0px 0px 20px 0px;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.movie-item-content{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-item-content div{
+    color: black;
+}
+
+.movie-item-content p{
+    color: gray;
+    font-size: 13px;
+}
+
+.movie-item-content .score{
+    color: gold;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.checked{
+    color: gold;
+}
+
+.custom-container{
+    padding: 30px 0px 0px 30px;
+}
+
+.filters{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.page-buttons{
+    cursor: pointer;
+}
+
+.overview{
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.paginator-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title{
+    color: #292c54;
+}
